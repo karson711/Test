@@ -221,6 +221,14 @@
         NSLog(@"+++++++++++++");
     });
     
+
 }
+
+#pragma mark 线程间通讯
+/*
+ dispatch_async(dispatch_get_main_queue(), ^{
+     
+ });
+ */
 
 @end

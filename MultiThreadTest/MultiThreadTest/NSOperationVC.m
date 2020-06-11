@@ -130,7 +130,15 @@
     op4.completionBlock = ^{
         NSLog(@"主人，你的电影已下载好了，快来观看吧");
     };
+    
 }
+
+#pragma mark 线程间通讯
+/*
+ [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+     
+ }];
+ */
 
 
 @end
